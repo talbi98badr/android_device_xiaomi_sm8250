@@ -2,19 +2,11 @@ LOCAL_PATH := $(call my-dir)
 
 #GCamGo
 include $(CLEAR_VARS)
-<<<<<<< HEAD
-LOCAL_MODULE := GCam
-LOCAL_SRC_FILES := priv-app/GCam/GCam.apk
-=======
-LOCAL_MODULE := GCam
-LOCAL_SRC_FILES := priv-app/GCam/GCam.apk
+LOCAL_MODULE := GCamGo
+LOCAL_SRC_FILES := priv-app/GCamGo/GCamGo.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := Snap Camera2
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
-
 include $(BUILD_PREBUILT)
-
-include $(BUILD_PREBUILT)
-

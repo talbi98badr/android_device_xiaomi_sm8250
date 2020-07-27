@@ -312,11 +312,12 @@ PRODUCT_PACKAGES += \
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
-
  
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    GCam   
+    GCamGo   
+
+ 
 
 
 # QMI
