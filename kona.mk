@@ -93,7 +93,6 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor\
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
-    Snap \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 # Charger
@@ -313,7 +312,9 @@ PRODUCT_PACKAGES += \
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
-
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo  
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
